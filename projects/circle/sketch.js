@@ -7,9 +7,9 @@ function setup() {
 function draw() {
   // put drawing code here
   if(mouseIsPressed){
-    r = 0;
-    g = 0;
-    b = 0;
+    r = rumdom255;
+    g = rundom255;
+    b = rumdom255;
   } else {
     r = 255;
     g = 255;
