@@ -7,15 +7,16 @@ function setup() {
 function draw() {
   // put drawing code here
   if(mouseIsPressed){
-    r = ramdom255;
+    r = random255;
     g = random255;
     b = ramdom255;
+    fill(r, g, b);
+  r = 100;
+  ellipse(mouseX, mouseY, r, r);
   } else {
     r = 255;
     g = 255;
     b = 255;
   }
-  fill(r, g, b);
-  r = 100;
-  ellipse(mouseX, mouseY, r, r);
+  
 }
